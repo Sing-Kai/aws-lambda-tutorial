@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-tutorial",
+  "version": "1.0.0",
+  "description": "AWS Lambda tutorial",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sing-Kai/aws-lambda-tutorial.git"
+  },
+  "author": "Sing-Kai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sing-Kai/aws-lambda-tutorial/issues"
+  },
+  "homepage": "https://github.com/Sing-Kai/aws-lambda-tutorial#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.111",
+    "@types/node": "^18.14.4",
+    "@vercel/ncc": "^0.36.1"
+  }
+}
